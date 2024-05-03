@@ -34,7 +34,7 @@ proxies:
     path: TG%40ZDYZ2
 - alterId: 64
   cipher: auto
-  name: 9|baipaovpn广东省江门市
+  name: '9|baipaovpn广东省江门市 #2'
   network: tcp
   port: '34002'
   server: 120.238.122.249
