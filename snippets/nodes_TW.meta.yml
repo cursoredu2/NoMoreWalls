@@ -304,5 +304,5 @@ proxies:
   uuid: 94e070a5-fc29-49bf-a1c3-11f3ef2df33d
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
-    path: /
+      Host: ''
+    path: ''
