@@ -45,15 +45,29 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn日本
+  name: 9|baipaovpn日本东京
   network: ws
   port: '80'
-  server: 43.201.106.251
+  server: 13.115.254.36
   servername: ''
   tls: false
   type: vmess
-  uuid: e71bf91c-083b-4dc2-abd6-b0630d0a4515
+  uuid: 4ebcbea9-9da6-40ad-afd1-30cb953c9688
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: jp01.handsomequinlan.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn日本
+  network: ws
+  port: '80'
+  server: 18.179.205.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8842bea-ec04-4039-b03a-aac6c42fe2c5
+  ws-opts:
+    headers:
+      Host: jp02.beitai.online
+    path: /
