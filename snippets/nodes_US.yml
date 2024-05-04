@@ -2,20 +2,20 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6,10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_9
+  name: 5,6|美国|@ripaojiedian
   network: ws
-  port: 2095
-  server: cfcdn1.sanfencdn9.com
+  port: '2052'
+  server: hk.wish.ml
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 7c42a3f8-cb73-4338-91e6-eef9e7346b12
+  uuid: 543f15f1-96a8-4205-b4a2-1a1ae6766c12
   ws-opts:
     headers:
-      Host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
+      Host: us7.wish.ml
+    path: /
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国5|@ripaojiedian
   password: MyYoZhfX
@@ -40,18 +40,17 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn美国
+  name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_9
   network: ws
-  port: '80'
-  server: 3.39.6.218
-  servername: ''
+  port: 2095
+  server: cfcdn1.sanfencdn9.com
   tls: false
   type: vmess
-  uuid: e71bf91c-083b-4dc2-abd6-b0630d0a4515
+  uuid: 7c42a3f8-cb73-4338-91e6-eef9e7346b12
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_4_由快嘴科技提供：kkzui.com6
