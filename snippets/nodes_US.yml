@@ -27,9 +27,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|美国3|@ripaojiedian
+  name: 5,6,10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_8
   network: ws
-  port: '2082'
+  port: 2082
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
@@ -57,14 +57,14 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 10|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com8
+  name: 10|🇺🇸_US_美国->🇨🇦_CA_加拿大_23
   network: ws
-  port: 2082
-  server: 104.21.8.157
+  port: 8080
+  server: yh4.dtku41.xyz
   tls: false
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
   ws-opts:
     headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
+      Host: dual-nothing-prep-exit.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
