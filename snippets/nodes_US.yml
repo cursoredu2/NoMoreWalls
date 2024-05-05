@@ -57,6 +57,20 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '2082'
+  server: 172.67.65.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6e11e361-dc47-4bf1-8454-4b59ee92a54d
+  ws-opts:
+    headers:
+      Host: sgv8.gas51qwrhmzz8.top
+    path: /
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸_US_美国_3_由快嘴科技提供：kkzui.com8
   network: ws
   port: 2082
