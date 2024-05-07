@@ -47,5 +47,5 @@ proxies:
   uuid: 90b2f590-5e7b-4ca2-a2d5-3bcc435d9650
   ws-opts:
     headers:
-      Host: ''
-    path: ''
+      Host: jp02.fredericamelody.online
+    path: /
