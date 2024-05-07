@@ -1,12 +1,4 @@
 proxies:
-- client-fingerprint: chrome
-  name: 5|🇸🇬 新加坡|@ripaojiedian
-  password: 0f408453-2589-4fc2-bf9d-22e0cef8b8d2
-  port: 20230
-  server: sg08.421421.xyz
-  skip-cert-verify: false
-  sni: 421421.xyz
-  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇸🇬 狮城特殊|@ripaojiedian
@@ -15,13 +7,3 @@ proxies:
   server: 54.151.219.143
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn新加坡
-  network: tcp
-  port: '50001'
-  server: 3.1.85.138
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6541d170-1507-45bc-9603-e8138a21b28c
