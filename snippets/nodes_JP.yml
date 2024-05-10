@@ -28,14 +28,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 5|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 52.88.161.5
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 6|日本2|@ripaojiedian
