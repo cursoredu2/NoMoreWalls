@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 5,8|SG_speednode_0089
+  name: 5|🇸🇬 新加坡2|@ripaojiedian
   network: ws
   password: e81d213d-8dd5-4207-9445-24d8903ffe0c
   port: 2248
@@ -20,13 +20,3 @@ proxies:
   server: 18.143.93.163
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn新加坡
-  network: tcp
-  port: '50001'
-  server: 18.139.115.103
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6541d170-1507-45bc-9603-e8138a21b28c
