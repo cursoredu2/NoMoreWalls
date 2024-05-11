@@ -1,10 +1,10 @@
 proxies:
-- cipher: aes-128-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 5|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
+  name: 5|🇺🇸 美国2|@ripaojiedian
+  password: 5cp9Z3iWnJZ2
   port: 443
-  server: 212.102.47.198
+  server: 205.134.180.151
   tfo: false
   type: ss
 - alterId: 0
