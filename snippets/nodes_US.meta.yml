@@ -48,36 +48,9 @@ proxies:
   server: 36.151.195.46
   skip-cert-verify: true
   type: trojan
-- fast-open: true
-  name: 8|US_speednode_0058
-  password: dongtaiwang.com
-  port: 40391
-  server: 104.192.224.141
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- fast-open: true
-  name: 8|US_speednode_0059
-  password: dongtaiwang.com
-  port: 40391
-  server: 104.192.224.140
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- alpn:
-  - h3
-  down: 55 Mbps
-  name: 8|US_speednode_0062
-  password: dongtaiwang.com
-  port: 22441
-  server: 109.104.152.89
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  up: 11 Mbps
 - client-fingerprint: random
   delay: 1593
-  name: 8|US_speednode_0064
+  name: 8|US_speednode_0057
   network: ws
   port: 2096
   server: 104.20.27.224
@@ -93,7 +66,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   delay: 1046
-  name: 8|US_speednode_0076
+  name: 8|US_speednode_0069
   network: ws
   port: 443
   server: 104.21.66.93
@@ -111,7 +84,7 @@ proxies:
   delay: 1008
   grpc-opts:
     grpc-service-name: xw7uebRG4KlUXGGYTVEagC5V7fI
-  name: 8|US_speednode_0078
+  name: 8|US_speednode_0071
   network: grpc
   password: 52701795-3c3b-46b4-b7cf-c5978b3a4cf2
   port: 443
@@ -120,6 +93,20 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn美国
+  network: ws
+  port: '80'
+  server: 161.35.212.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 35a409bd-433b-478c-bd5f-4b59c3a88690
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸_US_美国_由快嘴科技提供：kkzui.com_20
