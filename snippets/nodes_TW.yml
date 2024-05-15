@@ -29,7 +29,7 @@ proxies:
     path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
-  name: 6|台湾|@ripaojiedian
+  name: 6,9|baipaovpn广东省佛山市
   network: tcp
   port: '21006'
   server: 183.232.199.28
