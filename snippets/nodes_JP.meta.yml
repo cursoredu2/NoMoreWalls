@@ -104,3 +104,17 @@ proxies:
     headers:
       Host: a.ssll.gay
     path: ' /?ed=2048'
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn日本东京
+  network: ws
+  port: '80'
+  server: 13.114.32.105
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ffee3554-cf70-4a11-8d20-66f45354fc1a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
