@@ -42,14 +42,6 @@ proxies:
   server: 61.172.229.17
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 5|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.139.225.183
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: 6|日本2|@ripaojiedian
@@ -60,17 +52,3 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn日本东京
-  network: ws
-  port: '80'
-  server: 13.114.32.105
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ffee3554-cf70-4a11-8d20-66f45354fc1a
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
