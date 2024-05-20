@@ -31,6 +31,14 @@ proxies:
     headers:
       Host: kvjqqknzjp6.yofnhkfc.xyz
     path: /video/Zo98PYfE
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 5|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.34.95.205
+  tfo: false
+  type: ss
 - client-fingerprint: random
   name: 8|JP_speednode_0037
   network: ws
@@ -46,3 +54,45 @@ proxies:
     headers:
       Host: qifei.today.elementfx.com
     path: /proxyIP=proxyip.jp.fxxk.dedyn.io
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn日本
+  network: ws
+  port: '80'
+  server: 18.181.190.41
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e7c26c01-186a-479e-9218-4952353d97f1
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn日本 #3'
+  network: ws
+  port: '80'
+  server: 18.181.190.41
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e7c26c01-186a-479e-9218-4952353d97f1
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '9|baipaovpn日本 #2'
+  network: ws
+  port: '80'
+  server: 43.199.29.71
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b39a02bc-dec0-4964-b861-d89ffe42558a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
