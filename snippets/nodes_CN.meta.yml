@@ -13,10 +13,10 @@ proxies:
     path: tg@zdyz2
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn广东省深圳市
+  name: 9|baipaovpn广东省佛山市
   network: tcp
-  port: '62001'
-  server: 183.232.142.179
+  port: '15601'
+  server: 183.232.199.28
   servername: ''
   tls: false
   type: vmess
