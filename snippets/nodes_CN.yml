@@ -1,21 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn广东省佛山市
+  name: 9|baipaovpn广东省汕头市
   network: tcp
-  port: '15603'
-  server: 183.232.199.28
+  port: '30131'
+  server: 183.240.179.207
   servername: ''
   tls: false
   type: vmess
-  uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
-- alterId: 0
-  cipher: auto
-  name: 9|baipaovpn广东省广州市
-  network: tcp
-  port: '50004'
-  server: 14.18.76.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
+  uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4
