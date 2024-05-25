@@ -49,15 +49,11 @@ proxies:
     path: tg@zdyz2
 - alterId: 0
   cipher: auto
-  name: 9|baipaovpn日本东京
-  network: ws
-  port: '80'
-  server: 45.66.217.101
+  name: 9|baipaovpn日本
+  network: tcp
+  port: '39777'
+  server: 210.230.206.18
   servername: ''
   tls: false
   type: vmess
-  uuid: cf2e2f72-7399-417f-b05c-ce6bdc912d23
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  uuid: fc78cd01-99ac-a085-cb84-69a60920129d
