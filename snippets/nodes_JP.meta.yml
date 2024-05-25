@@ -47,3 +47,17 @@ proxies:
     headers:
       host: cfed.tgzdyz2.top
     path: tg@zdyz2
+- alterId: 0
+  cipher: auto
+  name: 9|baipaovpn日本东京
+  network: ws
+  port: '80'
+  server: 45.66.217.101
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cf2e2f72-7399-417f-b05c-ce6bdc912d23
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
