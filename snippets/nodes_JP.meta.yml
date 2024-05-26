@@ -14,15 +14,15 @@ proxies:
   server: 34.222.36.230
   tfo: false
   type: ss
-- name: 8|JP_speednode_0066
+- name: 8|JP_speednode_0112
   network: ws
-  port: 443
-  server: 43.153.181.217
-  servername: cfed.tgzdyz2.top
+  port: 2053
+  server: 140.238.58.181
+  servername: v116.ylkszy.eu.org
   tls: true
   type: vless
-  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  uuid: c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0
   ws-opts:
     headers:
-      host: cfed.tgzdyz2.top
-    path: tg@zdyz2
+      host: v116.ylkszy.eu.org
+    path: /
