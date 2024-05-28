@@ -1,12 +1,4 @@
 proxies:
-- cipher: aes-128-cfb
-  client-fingerprint: chrome
-  name: 5|🇺🇸 美国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.47.198
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: 5,8|CN_speednode_0024
   network: tcp
