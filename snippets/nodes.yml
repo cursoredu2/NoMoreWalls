@@ -1,97 +1,38 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-7
+  name: 0|-https://t.me/MrXbin-5
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
-    host: (TG @WangCai2)ff5c0fb:30513
+    host: (TG @WangCai2)feec8af:29306
     mode: tls
   port: 2377
-  server: 23.247.137.166
+  server: 118.163.179.161
   type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-8
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-9
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-10
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 51.77.53.200
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-11
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)2c7d70b:29681
-    mode: tls
-  port: 2377
-  server: 172.105.220.7
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-12
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)2c7d70b:29681
-    mode: tls
-  port: 2377
-  server: 134.195.101.33
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-13
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)2c7d70b:29681
-    mode: tls
-  port: 2377
-  server: 172.104.117.248
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-14
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)2c7d70b:29681
-    mode: tls
-  port: 2377
-  server: 13.230.213.154
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-15
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)2c7d70b:29681
-    mode: tls
-  port: 2377
-  server: 54.95.215.125
-  type: ss
-  udp: true
 - cipher: aes-128-gcm
-  name: 0|-https://t.me/MrXbin-16
+  name: 0|-https://t.me/MrXbin-6
   password: shadowsocks
   port: 443
-  server: 212.102.53.196
+  server: 212.102.53.193
   type: ss
+- alterId: 0
+  cipher: auto
+  country: CA
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-35
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /linkvws
 - cipher: aes-256-cfb
   country: DE
-  name: 0|-https://t.me/MrXbin-87
+  name: 0|-https://t.me/MrXbin-77
   password: a3GFYt36Sm82Vys9
   port: 9000
   server: 80.92.204.106
@@ -101,7 +42,7 @@ proxies:
   country: GB
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-88
+  name: 0|-https://t.me/MrXbin-78
   network: ws
   port: 30000
   server: 51.89.122.175
@@ -111,118 +52,144 @@ proxies:
   uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
   ws-opts:
     path: /path/323127100515
+- alterId: 0
+  cipher: auto
+  country: HK
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-79
+  network: ws
+  port: 12909
+  server: 210.3.159.224
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  country: NL
+  name: 0|-https://t.me/MrXbin-80
+  password: a8bt9fY0QsLS6eLnXUe0Ym
+  port: 8080
+  server: 193.29.139.162
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: NL
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-81
+  network: ws
+  port: 80
+  server: 188.114.97.3
+  servername: De1.vmess.site.
+  skip-cert-verify: true
+  type: vmess
+  uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
+  ws-opts:
+    headers:
+      HOST: De1.vmess.site.
+    path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
+- alterId: 0
+  cipher: auto
+  country: NL
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-82
+  network: tcp
+  port: 80
+  server: 109.104.153.69
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
 - cipher: aes-256-gcm
   country: PL
-  name: 0|-https://t.me/MrXbin-89
+  name: 0|-https://t.me/MrXbin-83
   password: Y6R9pAtvxxzmGC
   port: 8888
   server: 51.77.53.200
   type: ss
 - cipher: aes-256-gcm
   country: PL
-  name: 0|-https://t.me/MrXbin-90
-  password: RexnBgU7EV5ADxG
-  port: 7001
+  name: 0|-https://t.me/MrXbin-84
+  password: FoOiGlkAA9yPEGP
+  port: 7307
   server: 51.77.53.200
   type: ss
 - cipher: aes-256-gcm
   country: PL
-  name: 0|-https://t.me/MrXbin-91
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-92
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-93
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-94
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-95
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 51.77.53.200
-  type: ss
-- cipher: aes-256-gcm
-  country: PL
-  name: 0|-https://t.me/MrXbin-96
+  name: 0|-https://t.me/MrXbin-85
   password: Y6R9pAtvxxzmGC
   port: 5000
   server: 51.77.53.200
   type: ss
 - cipher: aes-256-gcm
   country: PL
-  name: 0|-https://t.me/MrXbin-97
-  password: e4FCWrgpkji3QY
-  port: 9102
+  name: 0|-https://t.me/MrXbin-86
+  password: faBAoD54k87UJG7
+  port: 2375
   server: 51.77.53.200
   type: ss
+- cipher: aes-256-gcm
+  country: PL
+  name: 0|-https://t.me/MrXbin-87
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 51.77.53.200
+  type: ss
+- alterId: 0
+  cipher: auto
+  country: UA
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-88
+  network: tcp
+  port: 41352
+  server: 141.105.130.89
+  skip-cert-verify: true
+  type: vmess
+  uuid: ac56511a-df0a-4ff8-87d6-a6819d7ad0fa
 - cipher: chacha20-ietf-poly1305
   country: US
-  name: 0|-https://t.me/MrXbin-99
+  name: 0|-https://t.me/MrXbin-90
   password: lWaGPVFjmnag
   port: 443
   server: 205.134.180.139
   type: ss
+- cipher: aes-256-gcm
+  country: US
+  name: 0|-https://t.me/MrXbin-91
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 23.150.152.53
+  type: ss
 - alterId: 0
   cipher: auto
   country: US
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-100
+  name: 0|-https://t.me/MrXbin-92
   network: ws
-  port: 80
-  server: us03.kingeldwin.online
+  port: 8080
+  server: 172.67.169.90
+  servername: oiictw.yydsii.com
   skip-cert-verify: true
   type: vmess
-  uuid: 9223aef7-642d-4047-8d3a-dd2bcb9e2e69
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
+    headers:
+      HOST: oiictw.yydsii.com
     path: /
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-101
-  network: ws
-  port: 80
-  server: us04.kingeldwin.online
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9223aef7-642d-4047-8d3a-dd2bcb9e2e69
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  country: US
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-102
-  network: ws
-  port: 80
-  server: us02.kingeldwin.online
-  skip-cert-verify: true
-  type: vmess
-  uuid: 9223aef7-642d-4047-8d3a-dd2bcb9e2e69
-  ws-opts:
-    path: /
+- country: US
+  name: 0,5|🇺🇸 美国3|@ripaojiedian
+  password: SREqCp9nAFy38S4xK03YYRzOlxK03YYRzOlcBlDea3OXD5pgZyaZ2eN8j6CITw5pgZyaZ
+  port: 28333
+  server: gobchang.koreanbbq.link
+  skip-cert-verify: false
+  sni: gobchang.koreanbbq.link
+  type: trojan
+  udp: true
 - cipher: aes-128-gcm
   name: 5|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -478,13 +445,6 @@ proxies:
     headers:
       Host: us3AJ8biuQx.fzbqfrse.xyz
     path: /video/QXjZG5u4F2
-- name: 5|🇺🇸 美国3|@ripaojiedian
-  password: SREqCp9nAFy38S4xK03YYRzOlxK03YYRzOlcBlDea3OXD5pgZyaZ2eN8j6CITw5pgZyaZ
-  port: 28333
-  server: gobchang.koreanbbq.link
-  skip-cert-verify: false
-  sni: gobchang.koreanbbq.link
-  type: trojan
 - name: 5,8|CN_speednode_0013
   network: tcp
   password: TNDSJfNv
