@@ -51,3 +51,13 @@ proxies:
   server: 43.201.254.211
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 6|日本3|@ripaojiedian
+  network: tcp
+  port: '10009'
+  server: cnah2.lanyunshi.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
