@@ -27,12 +27,12 @@ proxies:
   cipher: auto
   name: 6|台湾2|@ripaojiedian
   network: ws
-  port: '5203'
+  port: '5201'
   server: ovhsg.v4.ddnsjifeng.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
   ws-opts:
     headers:
       Host: ''

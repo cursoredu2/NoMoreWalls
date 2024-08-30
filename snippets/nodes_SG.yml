@@ -26,10 +26,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5|🇸🇬 新加坡3|@ripaojiedian
+  name: 5,6|新加坡3|@ripaojiedian
   network: ws
-  port: 2052
+  port: '2052'
   server: cfcdn2.sanfencdn9.com
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -57,14 +58,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 6|新加坡2|@ripaojiedian
+  name: 6|新加坡|@ripaojiedian
   network: ws
-  port: '5502'
+  port: '5501'
   server: v1.cdn.ddnschiyun.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
   ws-opts:
     headers:
       Host: ''
