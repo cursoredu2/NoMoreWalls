@@ -1,25 +1,12 @@
 proxies:
 - cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-4
+  name: 0|-https://t.me/MrXbin-5
   password: g5MeD6Ft3CWlJId
   port: 5004
   server: 69.50.93.113
   type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-7
-  password: e4FCWrgpkji3QY
-  port: 9101
-  server: 69.50.93.113
-  type: ss
-- cipher: aes-128-gcm
-  name: 0,5|🇬🇧 英国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.198
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-19
+  name: 0|-https://t.me/MrXbin-11
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
@@ -30,7 +17,21 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-28
+  name: 0|-https://t.me/MrXbin-27
+  network: ws
+  port: 2095
+  server: 172.64.167.8
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-29
   network: ws
   port: 2095
   server: 172.64.194.76
@@ -44,7 +45,91 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-48
+  name: 0|-https://t.me/MrXbin-34
+  network: ws
+  port: 2095
+  server: 172.64.175.213
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip9.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-35
+  network: ws
+  port: 2095
+  server: 172.64.167.19
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-41
+  network: tcp
+  port: 64016
+  server: in06.my1188.org
+  servername: us01.wechat-cdn-us01.one
+  skip-cert-verify: true
+  type: vmess
+  uuid: fe0346d9-a972-3d8a-bac7-310604fa108f
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-43
+  network: ws
+  port: 2095
+  server: 172.64.167.29
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-46
+  network: ws
+  port: 2095
+  server: 172.64.166.28
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-51
+  network: ws
+  port: 2095
+  server: 172.64.167.25
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-52
   network: ws
   port: 80
   server: 151.101.2.228
@@ -63,118 +148,6 @@ proxies:
   name: 0|-https://t.me/MrXbin-53
   network: ws
   port: 2095
-  server: 172.64.166.28
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-59
-  network: ws
-  port: 2095
-  server: 172.64.167.22
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-60
-  network: ws
-  port: 2095
-  server: 172.64.167.19
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-61
-  network: ws
-  port: 2095
-  server: 172.64.167.8
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-62
-  network: ws
-  port: 2095
-  server: 172.64.166.20
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-68
-  network: ws
-  port: 2095
-  server: 172.64.166.9
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-71
-  network: ws
-  port: 2095
-  server: 172.64.166.16
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-73
-  network: ws
-  port: 2095
-  server: 172.64.166.32
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-74
-  network: ws
-  port: 2095
   server: 172.64.167.35
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
@@ -186,49 +159,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-77
-  network: ws
-  port: 2095
-  server: 172.64.167.25
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-81
-  network: ws
-  port: 2095
-  server: 172.64.167.29
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-83
-  network: ws
-  port: 2095
-  server: 172.64.166.12
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  name: 0|-https://t.me/MrXbin-85
+  name: 0|-https://t.me/MrXbin-54
   network: ws
   port: 2095
   server: 172.64.167.15
@@ -242,7 +173,7 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-86
+  name: 0|-https://t.me/MrXbin-63
   network: ws
   port: 443
   server: 54.251.167.101
@@ -259,7 +190,21 @@ proxies:
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-91
+  name: 0|-https://t.me/MrXbin-67
+  network: ws
+  port: 2095
+  server: 172.64.166.16
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-69
   network: ws
   port: 2095
   server: 172.64.198.249
@@ -269,48 +214,76 @@ proxies:
     headers:
       Host: ip11.6016725.xyz
     path: /github.com/Alvin9999
-- name: 0,8|US_speednode_0036
-  password: 1131668a-07ca-34e5-895b-f1721ea42fc7
-  port: 443
-  server: 35.93.203.243
-  skip-cert-verify: true
-  sni: akamai.cdn.steampipe.steamcontent.com
-  type: trojan
-- name: 0,8|US_speednode_0034
-  password: 1131668a-07ca-34e5-895b-f1721ea42fc7
-  port: 3509
-  server: 103.136.185.28
-  skip-cert-verify: true
-  sni: steampipe-partner.akamaized.net
-  type: trojan
-- name: 0,8|US_speednode_0035
-  password: 1131668a-07ca-34e5-895b-f1721ea42fc7
-  port: 5525
-  server: 103.136.185.27
-  skip-cert-verify: true
-  sni: steampipe-kr.akamaized.net
-  type: trojan
-- name: 0,8|JP_speednode_0017
-  password: 1131668a-07ca-34e5-895b-f1721ea42fc7
-  port: 443
-  server: 35.75.8.137
-  skip-cert-verify: true
-  sni: origin-a.akamaihd.net
-  type: trojan
-- name: 0,8|JP_speednode_0016
-  password: 1131668a-07ca-34e5-895b-f1721ea42fc7
-  port: 443
-  server: 54.238.135.78
-  skip-cert-verify: true
-  sni: steamcdn-a.akamaihd.net
-  type: trojan
-- name: 0,5,8|JP_speednode_0015
-  password: '3690911436885991424'
-  port: 443
-  server: deciding-mantis.opossum872.cfd
-  skip-cert-verify: true
-  sni: deciding-mantis.opossum872.cfd
-  type: trojan
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-70
+  network: ws
+  port: 2095
+  server: 172.64.166.32
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-72
+  network: ws
+  port: 2095
+  server: 172.64.166.12
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-75
+  network: ws
+  port: 2095
+  server: 172.64.167.22
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-77
+  network: ws
+  port: 2095
+  server: 172.64.166.9
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-84
+  network: ws
+  port: 2095
+  server: 172.64.166.20
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
 - name: 5|🇭🇰 香港|@ripaojiedian
   password: '3690911436885991424'
   port: 443
@@ -401,6 +374,13 @@ proxies:
   server: 61.172.235.22
   tfo: false
   type: ss
+- name: 5,8|JP_speednode_0015
+  password: '3690911436885991424'
+  port: 443
+  server: deciding-mantis.opossum872.cfd
+  skip-cert-verify: true
+  sni: deciding-mantis.opossum872.cfd
+  type: trojan
 - name: 5|🇰🇷 韩国|@ripaojiedian
   password: 8d4a8689-e8fd-4405-9834-3f812c528db0
   port: 13036
@@ -483,6 +463,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- cipher: aes-128-gcm
+  name: 5|🇬🇧 英国|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.198
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   name: 5|🇻🇳 越南|@ripaojiedian
   password: hGkQ6915tD
@@ -520,3 +507,38 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- name: 8|JP_speednode_0016
+  password: 1131668a-07ca-34e5-895b-f1721ea42fc7
+  port: 443
+  server: 54.238.135.78
+  skip-cert-verify: true
+  sni: steamcdn-a.akamaihd.net
+  type: trojan
+- name: 8|JP_speednode_0017
+  password: 1131668a-07ca-34e5-895b-f1721ea42fc7
+  port: 443
+  server: 35.75.8.137
+  skip-cert-verify: true
+  sni: origin-a.akamaihd.net
+  type: trojan
+- name: 8|US_speednode_0034
+  password: 1131668a-07ca-34e5-895b-f1721ea42fc7
+  port: 3509
+  server: 103.136.185.28
+  skip-cert-verify: true
+  sni: steampipe-partner.akamaized.net
+  type: trojan
+- name: 8|US_speednode_0035
+  password: 1131668a-07ca-34e5-895b-f1721ea42fc7
+  port: 5525
+  server: 103.136.185.27
+  skip-cert-verify: true
+  sni: steampipe-kr.akamaized.net
+  type: trojan
+- name: 8|US_speednode_0036
+  password: 1131668a-07ca-34e5-895b-f1721ea42fc7
+  port: 443
+  server: 35.93.203.243
+  skip-cert-verify: true
+  sni: akamai.cdn.steampipe.steamcontent.com
+  type: trojan
