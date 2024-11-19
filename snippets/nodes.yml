@@ -1,22 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-4
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.199
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-5
-  password: 3MgIhqwp4pjM8SKwixNkYZ
-  port: 33068
-  server: 193.124.22.253
-  type: ss
-- cipher: aes-256-gcm
-  name: 0|-https://t.me/MrXbin-6
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.86.135.141
-  type: ss
 - cipher: aes-256-gcm
   name: 0,5|🇷🇺 俄罗斯|@ripaojiedian
   password: dongtaiwang.com
@@ -25,56 +7,45 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-8
+  name: 0|-https://t.me/MrXbin-2
+  password: qwerREWQ@@
+  port: 54345
+  server: 221.139.79.57
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|-https://t.me/MrXbin-3
   password: amazonskr05
   port: 443
   server: 13.229.182.85
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-10
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.188
-  type: ss
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-13
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13638
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: bb29cs.cdn.node.a.tddns-ounk.com
-  type: ssr
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-17
+  name: 0|-https://t.me/MrXbin-8
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
-- cipher: aes-128-cfb
-  name: 0|-https://t.me/MrXbin-25
-  obfs: plain
-  password: shadowsocks
-  port: 443
-  protocol: origin
-  server: 109.201.152.181
-  type: ssr
-- cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-27
-  obfs: tls1.2_ticket_auth
-  password: Cskw6d
-  port: 13634
-  protocol: auth_aes128_md5
-  protocol-param: 524959:5u4MZ6
-  server: bb29cs.cdn.node.a.tddns-ounk.com
-  type: ssr
 - alterId: 0
   cipher: auto
   h2-opts: {}
   http-opts: {}
-  name: 0|-https://t.me/MrXbin-32
+  name: 0|-https://t.me/MrXbin-23
+  network: ws
+  port: 443
+  server: 45.149.12.84
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-25
   network: ws
   port: 443
   server: 192.0.54.172
