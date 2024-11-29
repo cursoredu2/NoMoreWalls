@@ -1,24 +1,40 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 0|-https://t.me/MrXbin-2
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.157
+  name: 0|-https://t.me/MrXbin-1
+  password: 3MgIhqwp4pjM8SKwixNkYZ
+  port: 33068
+  server: 193.124.22.253
   type: ss
 - cipher: rc4-md5
-  name: 0|-https://t.me/MrXbin-3
+  name: 0|-https://t.me/MrXbin-2
   password: 14fFPrbezE3HDZzsMOr6
   port: 8080
   server: 138.199.42.68
   type: ss
 - cipher: aes-256-cfb
-  name: 0|-https://t.me/MrXbin-18
+  name: 0|-https://t.me/MrXbin-11
   obfs: tls1.2_ticket_auth
   password: fou8MBGij
   port: 8081
   protocol: origin
   server: us-am3.eqnode.net
   type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: 0|-https://t.me/MrXbin-18
+  network: ws
+  port: 2095
+  server: 172.64.99.22
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip12.6016725.xyz
+    path: /github.com/Alvin9999
 - name: 5|🇭🇰 香港|@ripaojiedian
   password: QwwHvrnN
   port: 34185
@@ -70,9 +86,9 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 5|🇹🇼 台湾|@ripaojiedian
+  name: 5,6|台湾|@ripaojiedian
   network: ws
-  port: 443
+  port: '443'
   server: hk.xn--vpn-rw7eh25o.com
   servername: hk.xn--vpn-rw7eh25o.com
   skip-cert-verify: false
@@ -126,10 +142,11 @@ proxies:
   type: ssr
 - alterId: 0
   cipher: auto
-  name: 5|🇺🇸 美国|@ripaojiedian
+  name: 5,6|美国|@ripaojiedian
   network: ws
-  port: 2095
+  port: '2095'
   server: 162.159.45.246
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -148,10 +165,11 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 5|🇺🇸 美国3|@ripaojiedian
+  name: 5,6|美国3|@ripaojiedian
   network: ws
-  port: 2086
+  port: '2086'
   server: 162.159.45.219
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -202,67 +220,129 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  name: 6|6aaZ5rivNnxAcmlwYW9qaWVkaWFu
+  obfs: plain
+  obfs-param: ZTBhMzE2MzgxNC42NjAyYjg0NjM0NjQxMDg1MDYubWljcm9zb2Z0LmNvbQ
+  password: ENZ52K
+  port: '40213'
+  protocol: auth_aes128_md5
+  protocol-param: NjM4MTQ6djEwa28xNjBmaw
+  server: 95b1cd85a0968ff2.cdn.jiashule.com
+  type: ssr
 - alterId: 0
   cipher: auto
-  name: 6|香港7|@ripaojiedian
-  network: ws
-  port: '16622'
-  server: m.cnmjin.net
+  name: 6|日本3|@ripaojiedian
+  network: tcp
+  port: '47118'
+  server: 45.159.51.28
   servername: ''
   tls: false
   type: vmess
-  uuid: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
-  ws-opts:
-    headers:
-      Host: 3fe454755ea98eaa00f870f7fa2990c7.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6|香港9|@ripaojiedian
-  network: ws
-  port: '2086'
-  server: cdn2.bpcdn.cc
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3db2d115-1db9-457d-850f-818b73228f67
-  ws-opts:
-    headers:
-      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6|新加坡|@ripaojiedian
-  network: ws
-  port: '2086'
-  server: cdn2.bpcdn.cc
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3db2d115-1db9-457d-850f-818b73228f67
-  ws-opts:
-    headers:
-      Host: sgtxv82wilpfh6a8vm.lovebaipiao.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 6|美国|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 170.114.45.53
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3db2d115-1db9-457d-850f-818b73228f67
-  ws-opts:
-    headers:
-      Host: us1.849yht89w.jiesk4pdqcqjo16j.xyz
-    path: /
-- name: 8|CN_speednode_0003
-  password: QwwHvrnN
-  port: 44673
-  server: 36.151.192.203
+  uuid: ea034172-f33d-4f2b-a4a7-c700ca773f7a
+- cipher: rc4-md5
+  name: 6|5paw5Yqg5Z2hfEByaXBhb2ppZWRpYW...
+  obfs: plain
+  obfs-param: MjU1ZTcxMTI1OTguNjYwMmI4NDYzNDY0MTA4NTA2Lm1pY3Jvc29mdC5jb20
+  password: ENZ52K
+  port: '40251'
+  protocol: auth_aes128_md5
+  protocol-param: MTEyNTk4OnZjeTdxaQ
+  server: 95b1cd85a0968ff2.cdn.jiashule.com
+  type: ssr
+- name: 8|CN_speednode_0007
+  password: f58da02d-f06b-3e2f-8956-67afe8f6a998
+  port: 20309
+  server: gyl.58n.net
   skip-cert-verify: true
-  sni: 36.151.192.203
+  sni: z309.hongkongnode.top
   type: trojan
   udp: true
+- name: 8|CR_speednode_0019
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 190.93.246.95
+  skip-cert-verify: true
+  sni: zeming13.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: zeming13.us.kg
+    path: /tr?ed=2560
+- name: 8|CR_speednode_0020
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 190.93.246.80
+  skip-cert-verify: true
+  sni: zeming13.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: zeming13.us.kg
+    path: /tr?ed=2560
+- name: 8|CR_speednode_0021
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 190.93.247.232
+  skip-cert-verify: true
+  sni: zeming13.us.kg
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: zeming13.us.kg
+    path: /tr?ed=2560
+- name: 8|JP_speednode_0025
+  password: 8cb7ad4e-2d61-3950-bb33-1d2cc3e653dd
+  port: 443
+  server: 43.206.140.241
+  skip-cert-verify: true
+  sni: origin-a.akamaihd.net
+  type: trojan
+  udp: true
+- name: 8|JP_speednode_0026
+  password: 8cb7ad4e-2d61-3950-bb33-1d2cc3e653dd
+  port: 443
+  server: 18.179.44.127
+  skip-cert-verify: true
+  sni: steamcdn-a.akamaihd.net
+  type: trojan
+  udp: true
+- name: 8|US_speednode_0047
+  network: ws
+  password: VPNCUSTOMIZE
+  port: 443
+  server: 104.17.234.12
+  skip-cert-verify: true
+  sni: 1.2.3.4.5.6.7.8.9.10.www.speedtest.net.VPNCUSTOMIZE.abrha.co.za
+  type: trojan
+  ws-opts:
+    headers:
+      Host: 1.2.3.4.5.6.7.8.9.10.www.speedtest.net.VPNCUSTOMIZE.abrha.co.za
+    path: /
+- name: 8|US_speednode_0069
+  password: 8cb7ad4e-2d61-3950-bb33-1d2cc3e653dd
+  port: 443
+  server: 35.92.52.160
+  skip-cert-verify: true
+  sni: akamai.cdn.steampipe.steamcontent.com
+  type: trojan
+  udp: true
+- name: 8|US_speednode_0080
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 104.18.86.204
+  skip-cert-verify: true
+  sni: 102.djR999998.Eu.orG
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 102.djR999998.Eu.orG
+    path: /trUvcCc2G5XwIs6jaw?ed=2560
