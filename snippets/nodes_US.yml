@@ -17,16 +17,19 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5|🇺🇸 美国|@ripaojiedian 2
+  name: '5,6|美国|@ripaojiedian #1'
   network: ws
-  port: 10004
+  port: '10004'
   server: 45.154.207.99
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
   uuid: 0084b5d0-8966-4398-87f8-d5d8b64aa356
   ws-opts:
+    headers:
+      Host: ''
     path: github.com/Alvin9999
 - name: 8|US_speednode_0033
   password: ypDt8RkT7J
