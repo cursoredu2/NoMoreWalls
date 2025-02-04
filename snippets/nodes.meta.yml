@@ -1,102 +1,20 @@
 proxies:
-- name: 0|🇵🇱1 |  4.6MB/s
-  password: 75577117-ABCD-DCBA-AAAA-CC777775577B
-  port: 7777
-  server: s15.serv00.com
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- auth: 47b177cb-d0d2-465b-b5cf-f92ae94d9d90
-  name: 0|🌀1- |  1.2MB/s
-  password: 47b177cb-d0d2-465b-b5cf-f92ae94d9d90
-  port: 35600
-  server: dddoxjp.naisicloud.xyz
-  skip-cert-verify: true
-  sni: dddoxjp.naisicloud.xyz
-  type: hysteria2
-- name: 0|🇺🇸1 |  3.0MB/s
-  password: f6f037b8-d6f5-4892-9bb5-0f915cac5b3b
-  port: 443
-  server: pop.e2e6e30c-9832-4092-a925-034ef112f346.heima360.cc
-  skip-cert-verify: false
-  sni: pop.e2e6e30c-9832-4092-a925-034ef112f346.heima360.cc
-  type: trojan
-- cipher: aes-256-cfb
-  name: 0|🇷🇺1 |  5.2MB/s
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.231.233.173
+- cipher: aes-128-gcm
+  name: 0|🇹🇼1 |  1.3MB/s
+  password: 79739832-b888-415a-a454-8b53911c944a
+  port: 30332
+  server: vps.200566.xyz
   type: ss
-- auth: 876e779f-991e-4d43-83e2-5548cfb02ee0
-  name: 0|🌀2- |  3.2MB/s
-  password: 876e779f-991e-4d43-83e2-5548cfb02ee0
-  port: 35600
-  server: fffwkl.naisicloud.xyz
-  skip-cert-verify: true
-  sni: fffwkl.naisicloud.xyz
-  type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬1 |  5.8MB/s
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  port: 443
-  server: singapore-6.keenvpn.me
-  type: ss
-  udp: true
-- name: 0|🇭🇰1 |  6.2MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
-- auth: da85e2f4-acfc-4e7c-8512-ded015105fef
-  name: 0|🇩🇪1 |  5.0MB/s
-  password: da85e2f4-acfc-4e7c-8512-ded015105fef
-  port: 25565
-  server: 213.136.83.240
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- name: 0|🇺🇸2 |  5.0MB/s
-  password: '123456'
-  port: 443
-  server: 192.3.85.237
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- auth: 7ee32f14-b07b-4a5c-8417-af90530f06e4
-  name: 0|🇷🇺2 |  1.3MB/s
-  password: 7ee32f14-b07b-4a5c-8417-af90530f06e4
-  port: 32548
-  server: 94.159.107.80
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria2
-- name: 0|🇹🇼1 |  4.1MB/s
+- name: 0|🌀1- |  5.5MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
-  server: tw1-cdn-route.couldflare-cdn.com
+  server: hkcera3-cdn-route.couldflare-cdn.com
   skip-cert-verify: false
-  sni: tw1-cdn-route.couldflare-cdn.com
+  sni: hkcera3-cdn-route.couldflare-cdn.com
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 0|🇺🇸3 |  1.3MB/s
-  password: 5d499973-9b33-3919-8424-27d2460b074b
-  port: 20306
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z306.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇺🇸4 |  2.2MB/s
-  password: a0605527-28e4-449c-80ee-5642cc16a8af
-  port: 80
-  server: br.huafei888.site
-  skip-cert-verify: true
-  sni: br.huafei888.site
-  type: hysteria2
-- name: 0|🇯🇵1 |  5.8MB/s
+- name: 0|🇯🇵1 |  6.3MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
   server: jpgmo102-cdn-route.couldflare-cdn.com
@@ -105,31 +23,97 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: 0|🇯🇵2 |  1.0MB/s
-  password: 5d499973-9b33-3919-8424-27d2460b074b
-  port: 20298
-  server: gy.58n.net
+- name: 0|🇺🇸1 |  5.7MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: ustx004-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: ustx004-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: aes-256-cfb
+  name: 0|🇸🇬1 |  2.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.212.188.124
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸2 |  7.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 35.91.132.50
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇸🇬2 |  4.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.254.191.196
+  type: ss
+- auth: e30cb248-d49a-4a76-b44c-4fe853ce5868
+  name: 0|🇭🇰1 |  3.3MB/s
+  password: e30cb248-d49a-4a76-b44c-4fe853ce5868
+  port: 35600
+  server: dddoyg.naisicloud.xyz
   skip-cert-verify: true
-  sni: z298.hongkongnode.top
-  type: trojan
-  udp: true
+  sni: dddoyg.naisicloud.xyz
+  type: hysteria2
+- name: 0|🇵🇱1 |  1.4MB/s
+  password: 75577117-ABCD-DCBA-AAAA-CC777775577B
+  port: 7777
+  server: s15.serv00.com
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: 0|🇷🇺1 |  2.1MB/s
+  obfs: dongtaiwang.com
+  port: 15424
+  ports: 30000-40000
+  server: 185.22.155.71
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria
+  up: 11 Mbps
 - cipher: aes-256-cfb
-  name: 0|🇨🇦1 |  6.0MB/s
+  name: 0|🇯🇵2 |  6.1MB/s
   password: amazonskr05
   port: 443
-  server: 47.129.255.141
+  server: 54.250.238.74
   type: ss
 - cipher: aes-256-cfb
-  name: 0|🇯🇵3 |  5.4MB/s
+  name: 0|🇷🇺2 |  3.5MB/s
+  password: fG2artUmHfNT2cX7
+  port: 9018
+  server: 217.30.10.18
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸3 |  2.9MB/s
   password: amazonskr05
   port: 443
-  server: 3.112.1.143
+  server: 54.185.251.195
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🌀3- |  2.1MB/s
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
+- cipher: aes-256-cfb
+  name: 0|🇯🇵3 |  3.9MB/s
+  password: amazonskr05
   port: 443
-  server: us-ashburn-virginia.keenvpn.me
+  server: 13.231.129.236
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇸🇬3 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.212.249.95
+  type: ss
+- cipher: chacha20-ietf
+  name: 0|🌏1 |  3.2MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.183.61
   type: ss
 - name: 5|tg频道:@ripaojiedian
   port: 4002

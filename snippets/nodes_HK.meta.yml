@@ -1,11 +1,13 @@
 proxies:
-- name: 0|🇭🇰1 |  6.2MB/s
-  password: myszy28811
-  port: 28811
-  server: pipi.myddns.me
-  type: socks5
-  udp: true
-  username: myszy
+- auth: e30cb248-d49a-4a76-b44c-4fe853ce5868
+  client-fingerprint: chrome
+  name: 0|🇭🇰1 |  3.3MB/s
+  password: e30cb248-d49a-4a76-b44c-4fe853ce5868
+  port: 35600
+  server: dddoyg.naisicloud.xyz
+  skip-cert-verify: true
+  sni: dddoyg.naisicloud.xyz
+  type: hysteria2
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 5|🇭🇰 香港|@ripaojiedian
