@@ -1,4 +1,12 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰2 |  4.3MB/s
+  port: 19901
+  server: xg.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 10d33c18-5f75-469f-9253-6cfb6cd4bb99
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 5|🇭🇰 香港|@ripaojiedian
