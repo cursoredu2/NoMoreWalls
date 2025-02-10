@@ -7,7 +7,7 @@ proxies:
     method: GET
     path:
     - /
-  name: 0,8|FR_speednode_0008
+  name: 8|FR_speednode_0008
   network: http
   port: 42368
   reality-opts:
@@ -20,10 +20,3 @@ proxies:
   type: vless
   udp: true
   uuid: c960621a-32f2-4dae-8262-22f5716fbcc9
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|🇫🇷2 |  3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 57.180.51.247
-  type: ss
