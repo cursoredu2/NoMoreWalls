@@ -1,4 +1,12 @@
 proxies:
+- name: 0|🇸🇬1 |  6.7MB/s
+  password: b0dac3e6-a2ce-35cc-8905-6ebc72216498
+  port: 30712
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x83.flybar.work
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: none
   client-fingerprint: chrome

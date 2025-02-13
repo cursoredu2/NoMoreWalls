@@ -1,23 +1,40 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🌀1- |  6.0MB/s
-  password: 4abcfe47-d1bb-42fc-b560-648c10cd32a4
-  port: 16491
-  server: temp.haoyf.xyz
+- name: 0|🇸🇬1 |  6.7MB/s
+  password: b0dac3e6-a2ce-35cc-8905-6ebc72216498
+  port: 30712
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: x83.flybar.work
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|🇰🇷1 |  2.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.35.135.232
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇺🇸12 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.143.130.71
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 0|🇮🇷1 |  5.6MB/s
-  password: 4abcfe47-d1bb-42fc-b560-648c10cd32a4
-  port: 36261
-  server: temp1.haoyf.xyz
+- cipher: aes-256-cfb
+  name: 0|🇰🇷2 |  1.3MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.180.248.97
   type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 0|🌀2- |  5.9MB/s
-  password: 4abcfe47-d1bb-42fc-b560-648c10cd32a4
-  port: 17175
-  server: temp.haoyf.xyz
+- cipher: rc4-md5
+  name: 0|🇮🇷1 |  4.3MB/s
+  password: RenzheCloudSS
+  plugin: obfs
+  plugin-opts:
+    host: 78fe8292462.microsoft.com
+    mode: http
+  port: 4606
+  server: bs3.jymzffbquawl.com
   type: ss
   udp: true
 - cipher: rc4-md5

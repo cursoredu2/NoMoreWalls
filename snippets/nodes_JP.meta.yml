@@ -2,6 +2,15 @@ proxies:
 - name: 0|🇯🇵1 |  4.1MB/s
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 443
+  server: jpgmo101-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: jpgmo101-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 0|🇯🇵2 |  6.2MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
   server: jpgmo102-cdn-route.couldflare-cdn.com
   skip-cert-verify: false
   sni: jpgmo102-cdn-route.couldflare-cdn.com
