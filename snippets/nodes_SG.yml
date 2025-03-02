@@ -1,25 +1,24 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 0|🇸🇬1 |  2.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 54.255.224.231
-  type: ss
-- name: 0|🇸🇬2 |  5.9MB/s
-  password: e36034d8-1f0c-3721-bca4-2d9d98352fd2
-  port: 30712
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x83.flybar.work
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|🇸🇬3 |  2.2MB/s
+  name: 0|🇸🇬1 |  4.1MB/s
   password: amazonskr05
   port: 443
   server: 54.151.184.124
   type: ss
+- cipher: aes-256-cfb
+  name: 0|🇸🇬2 |  7.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.229.59.137
+  type: ss
+- name: 0|🇸🇬3 |  1.2MB/s
+  password: '!!str 3787016276694802432'
+  port: 443
+  server: topical-cardinal.husky461.skin
+  skip-cert-verify: true
+  sni: topical-cardinal.husky461.skin
+  type: trojan
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 5|🇸🇬 新加坡|@ripaojiedian
