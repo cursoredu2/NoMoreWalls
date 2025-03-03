@@ -1,13 +1,11 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇹🇼1 |  5.2MB/s
-  port: 63010
-  server: in06.xxxoooxxxooo.net
-  type: vmess
+- name: 0|🇹🇼1 |  5.4MB/s
+  password: myszy28811
+  port: 28811
+  server: pipi.myddns.me
+  type: socks5
   udp: true
-  uuid: 26a934b4-d088-3cd6-88c2-11180ed1e53b
+  username: myszy
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 5|🇹🇼 台湾2|@ripaojiedian

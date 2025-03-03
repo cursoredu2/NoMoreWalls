@@ -1,13 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇹🇼1 |  5.2MB/s
-  port: 63010
-  server: in06.xxxoooxxxooo.net
-  type: vmess
-  udp: true
-  uuid: 26a934b4-d088-3cd6-88c2-11180ed1e53b
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 5|🇹🇼 台湾2|@ripaojiedian
