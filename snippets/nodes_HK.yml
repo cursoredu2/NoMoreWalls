@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 5|🇭🇰 香港|@ripaojiedian
+  name: 0,5|🇭🇰 香港|@ripaojiedian
   password: 1e63e585ab2fef3adcc9ea75a62abc23
   port: 443
   server: 104.251.227.182
@@ -74,6 +74,17 @@ proxies:
   tls: false
   type: vmess
   uuid: 21e549ac-f8a0-4dfe-a626-fe1630c7b804
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 5|🇭🇰 香港10|@ripaojiedian
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40208
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
 - alterId: 0
   cipher: auto
   name: 6|香港9|@ripaojiedian
