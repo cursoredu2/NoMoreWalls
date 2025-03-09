@@ -1,20 +1,23 @@
 proxies:
-- client-fingerprint: chrome
-  name: 5|🇹🇼 台湾|@ripaojiedian
-  password: 9d5e41f7-3ae7-41d4-8560-6177f1c36b78
-  port: 10310
-  server: dest01.to.userver01.cc
-  skip-cert-verify: false
-  sni: www.tmall.com
+- name: 0|🇹🇼1 |  2.0MB/s
+  password: 06931654-e99d-3668-856f-eb01b9a3d200
+  port: 33323
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z261.hongkongnode.top
   type: trojan
-- cipher: aes-256-gcm
+  udp: true
+- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 5|🇹🇼 台湾2|@ripaojiedian
-  password: QF377GGQ00RATCMK
-  port: 21004
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+  name: 5|🇹🇼 台湾|@ripaojiedian
+  obfs: http_simple
+  obfs-param: b4ff5202018.microsoft.com
+  password: lbNVOz
+  port: 7051
+  protocol: auth_aes128_md5
+  protocol-param: 202018:1FstQvihnBRscXZP
+  server: cname02b-a56xgycr7j4km32e.bestgosht.com
+  type: ssr
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 5|🇹🇼 台湾3|@ripaojiedian
