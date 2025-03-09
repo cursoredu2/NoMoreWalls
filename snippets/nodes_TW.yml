@@ -1,10 +1,10 @@
 proxies:
-- name: 0|🇹🇼1 |  2.0MB/s
-  password: 06931654-e99d-3668-856f-eb01b9a3d200
-  port: 33323
+- name: 0|🇹🇼1 |  2.3MB/s
+  password: 2356c64f-45ce-3586-9f79-2732d3751df8
+  port: 21247
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z261.hongkongnode.top
+  sni: x91.flybar.work
   type: trojan
   udp: true
 - cipher: chacha20-ietf
