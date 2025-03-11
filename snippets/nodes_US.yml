@@ -1,7 +1,16 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|🇺🇸5 |  5.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 13.215.141.135
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸1 |  6.3MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 83d5c6cf-3ee7-31de-b805-eec2ef4b32c3
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
