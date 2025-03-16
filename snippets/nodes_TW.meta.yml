@@ -1,28 +1,29 @@
 proxies:
+- client-fingerprint: chrome
+  name: 0|🇹🇼1 |  1.1MB/s
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 443
+  server: tw1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: tw1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - cipher: aes-128-gcm
-  name: 0|🇹🇼1 |  4.4MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24510
-  server: wy.76681f9610f175c6.com
+  client-fingerprint: chrome
+  name: 0|🇹🇼2 |  1.3MB/s
+  password: 2c8cfc48-c211-4973-bc95-9d532ac42c35
+  port: 12033
+  server: mdss-tw.04z3susick.download
   type: ss
-- cipher: aes-128-gcm
-  name: 0|🇹🇼2 |  5.2MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24549
-  server: wy.76681f9610f175c6.com
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 0|🇹🇼3 |  2.5MB/s
+  password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44
+  port: 19019
+  server: yy1.vyunyunnode.top
   type: ss
-- cipher: aes-128-gcm
-  name: 0|🇹🇼3 |  13.1MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24510
-  server: onlycloud.76681f9610f175c6.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 0|🇹🇼4 |  10.0MB/s
-  password: ec588545-292e-4a11-ada2-d62e599af928
-  port: 24513
-  server: wy.76681f9610f175c6.com
-  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
