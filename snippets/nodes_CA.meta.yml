@@ -1,1 +1,89 @@
-proxies: []
+proxies:
+- cipher: aes-256-gcm
+  country: 🇱🇻LV
+  delay: 1366
+  name: 0|🇨🇦1 |  2.1MB/s
+  password: EQMV7RIDBFV5P8TR
+  port: 20022
+  server: 46.16.129.217
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇧🇬BG
+  delay: 1376
+  name: 0|🇨🇦2 |  2.0MB/s
+  password: KK3QZ03PRKU83D65
+  port: 20005
+  server: 91.148.134.106
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇮🇹IT
+  delay: 1104
+  name: 0|🇨🇦3 |  2.7MB/s
+  password: 9F2G2EP8ET1PL6Q5
+  port: 20029
+  server: 185.213.20.36
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇺🇸US
+  delay: 1111
+  name: 0|🇨🇦4 |  1.8MB/s
+  password: ZGQ2XTADB0JELOJ4
+  port: 20010
+  server: 185.47.253.144
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇧🇪BE
+  delay: 1766
+  name: 0|🇨🇦5 |  1.9MB/s
+  password: 9D5I26TE85SP928W
+  port: 20026
+  server: 185.213.22.93
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇬🇧GB
+  delay: 851
+  name: 0|🇨🇦6 |  2.7MB/s
+  password: NP5SL4R12N0ABTMJ
+  port: 20025
+  server: 185.186.77.137
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇷🇴RO
+  delay: 2707
+  name: 0|🇨🇦7 |  1.7MB/s
+  password: Q7MZEE6KQQTDAAR3
+  port: 20027
+  server: 185.126.237.58
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇳🇴NO
+  delay: 937
+  name: 0|🇨🇦8 |  2.4MB/s
+  password: XCASGIDOF6TPCSCK
+  port: 20034
+  server: 185.90.61.157
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇮🇲IM
+  delay: 972
+  name: 0|🇨🇦9 |  1.2MB/s
+  password: T0ELS4804BGXKGMO
+  port: 20038
+  server: 45.154.206.189
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇮🇲IM
+  delay: 724
+  name: 0|🇨🇦10 |  1.2MB/s
+  password: VCR6HN8ULU4S4N27
+  port: 20030
+  server: 45.154.207.246
+  type: ss
+- cipher: aes-256-gcm
+  country: 🇫🇷FR
+  delay: 919
+  name: 0|🇨🇦11 |  1.2MB/s
+  password: 3DYJXCU98P1M9B5A
+  port: 20036
+  server: 185.237.185.77
+  type: ss
