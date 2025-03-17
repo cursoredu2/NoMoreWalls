@@ -1,18 +1,6 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000 Mbps
-  name: 0|🇫🇷1 |  5.2MB/s
-  port: 44557
-  server: 195.154.200.178
-  servername: apple.com
-  skip-cert-verify: true
-  type: hysteria
-  up: 1000 Mbps
 - client-fingerprint: chrome
-  name: 0|🇫🇷2 |  2.4MB/s
+  name: 0|🇫🇷1 |  4.9MB/s
   password: RDY3RCBe82XylFcyOaa8CKl8Aga0YSSy9ZBFSZYuq3nDjI0OaEwZDn3Ap6pSTaxOxORDe
   port: 443
   server: coliseum.coffeekit.net

@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: 0|🇫🇷2 |  2.4MB/s
+  name: 0|🇫🇷1 |  4.9MB/s
   password: RDY3RCBe82XylFcyOaa8CKl8Aga0YSSy9ZBFSZYuq3nDjI0OaEwZDn3Ap6pSTaxOxORDe
   port: 443
   server: coliseum.coffeekit.net
