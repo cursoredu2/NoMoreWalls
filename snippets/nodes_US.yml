@@ -1,27 +1,29 @@
 proxies:
-- alterId: 32
-  cipher: auto
-  name: 0|🇺🇸1 |  5.5MB/s
-  network: ws
+- grpc-opts:
+    grpc-service-name: i8oL7PsxV002zYFTmiIeg
+  ip-version: dual
+  name: 0|🇺🇸1 |  5.1MB/s
+  network: grpc
+  password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
   port: 443
-  server: vc.fly.dev
-  servername: vc.fly.dev
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+  server: 192.3.130.103
+  skip-cert-verify: false
+  sni: us10-01zl.huangshang.filegear-sg.me
+  type: trojan
   udp: true
-  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
-  ws-opts:
-    headers:
-      Host: vc.fly.dev
-    path: /vc
+- cipher: rc4-md5
+  name: 0|🇺🇸2 |  5.1MB/s
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 194.5.215.59
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 5|🇺🇸 美国|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-1jfmRG1tQL.download.microsoft.com
+    host: 202503170996717-MVQjjXvt4R.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -33,7 +35,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-1jfmRG1tQL.download.microsoft.com
+    host: 202503170996717-MVQjjXvt4R.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
@@ -47,14 +49,14 @@ proxies:
   server: 184.170.241.194
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 5|🇺🇸 美国4|@ripaojiedian
-  password: 9F8JNSW2S1HUHKRX
-  port: 17007
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
+  password: '!!str 74260708004220600'
+  port: 443
+  server: capital-hyena.shiner427.skin
+  skip-cert-verify: false
+  sni: capital-hyena.shiner427.skin
+  type: trojan
 - client-fingerprint: chrome
   name: 5|🇺🇸 美国5|@ripaojiedian
   password: SDYlNZ6z5DA8TZqz33YnN4lzpp88YBZOyXC5we8AZBqn6YXwI0gISyalXjIOyNwCaDpDORKSyDCSg9S
@@ -63,11 +65,3 @@ proxies:
   skip-cert-verify: false
   sni: rolling.homeofbrave.net
   type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 5|🇺🇸 美国6|@ripaojiedian
-  password: JPDOKTML5DEL567X
-  port: 17003
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
