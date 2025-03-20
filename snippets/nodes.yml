@@ -1,71 +1,57 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇧🇷1 |  4.0MB/s
-  password: 7cedfed8-92b2-49ad-a8b9-85bff3262195
-  port: 36671
-  server: free.2weradf.xyz
-  type: ss
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 0|🇺🇸1 |  4.3MB/s
-  password: amazonskr05
+- alterId: 32
+  cipher: auto
+  name: 0|🇺🇸1 |  5.5MB/s
+  network: ws
   port: 443
-  server: 54.202.63.169
-  type: ss
+  server: vc.fly.dev
+  servername: vc.fly.dev
+  skip-cert-verify: true
+  tls: true
+  type: vmess
   udp: true
+  uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee
+  ws-opts:
+    headers:
+      Host: vc.fly.dev
+    path: /vc
+- alterId: 0
+  cipher: auto
+  ip-version: dual
+  name: 0|🇫🇷1 |  5.5MB/s
+  network: ws
+  port: 2082
+  server: 45.142.120.190
+  skip-cert-verify: true
+  type: vmess
+  udp: true
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link#
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇷🇺1 |  5.1MB/s
-  password: 7cedfed8-92b2-49ad-a8b9-85bff3262195
-  port: 36511
-  server: free.2weradf.xyz
+  name: 0|🇳🇱1 |  5.6MB/s
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.199
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼1 |  4.7MB/s
-  password: 7cedfed8-92b2-49ad-a8b9-85bff3262195
-  port: 36243
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇹🇼2 |  5.5MB/s
-  password: 7cedfed8-92b2-49ad-a8b9-85bff3262195
-  port: 36241
-  server: free.2weradf.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬1 |  5.6MB/s
-  password: 7cedfed8-92b2-49ad-a8b9-85bff3262195
+  name: 0|🇸🇬1 |  5.4MB/s
+  password: b652cefb-32cf-4c9d-a0b6-ca941375cd46
   port: 36173
   server: free.2weradf.xyz
   type: ss
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 0|🇺🇸2 |  2.9MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.86.111.233
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 0|🇺🇸3 |  5.4MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.221.169.63
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 0|🇺🇸4 |  5.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 34.211.230.161
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 0|🇸🇬2 |  5.4MB/s
-  password: 7cedfed8-92b2-49ad-a8b9-85bff3262195
-  port: 36171
+  name: 0|🇸🇬2 |  4.3MB/s
+  password: b652cefb-32cf-4c9d-a0b6-ca941375cd46
+  port: 36175
+  server: free.2weradf.xyz
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 0|🇯🇵1 |  2.4MB/s
+  password: b652cefb-32cf-4c9d-a0b6-ca941375cd46
+  port: 36113
   server: free.2weradf.xyz
   type: ss
 - cipher: aes-256-cfb
