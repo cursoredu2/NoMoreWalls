@@ -23,52 +23,36 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: 5|🇯🇵 日本3|@ripaojiedian
-  password: JIPI3OO5VF7JN9VH
-  port: 18006
-  server: 156.231.104.16
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 5|🇯🇵 日本5|@ripaojiedian
-  password: 85aDyYZY30RxnpAD38lSCKaue9CDDTDOAASycaExR9OEZxOD8c25CXeSCF33lN3q43BeI
-  port: 443
-  server: gharial.superpokemon.com
-  skip-cert-verify: false
-  sni: gharial.superpokemon.com
-  type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 5|🇯🇵 日本4|@ripaojiedian
-  password: TVCFQGQNY3RMLN46
-  port: 18012
-  server: 156.231.104.22
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 5|🇯🇵 日本6|@ripaojiedian
-  password: 88K4yE6e3Za9YxCXR53paOnlqDy5qYIa4OczBTaFAyS0gZjS083Dz3YRCxuwOScXOFNYD
-  port: 28341
-  server: fearow.superpokemon.com
-  skip-cert-verify: false
-  sni: fearow.superpokemon.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 5|🇯🇵 日本7|@ripaojiedian
   password: 0FaYIOcSy4lBg38yRxnj7RlR3RZYSq3pC9OaSDAAOw6Oe8FCpy08u8pzx3eKZacDz3XE3
   port: 443
   server: terture.meijireform.com
   skip-cert-verify: false
   sni: terture.meijireform.com
   type: trojan
+- client-fingerprint: chrome
+  name: 5|🇯🇵 日本4|@ripaojiedian
+  password: 6aqnYj7NA2CAeSeZpY34RIC3KzNzDO33aOOaZSxFSc5ETBcwXeyaDF3qC9A907y2nXT8S
+  port: 443
+  server: visual.superpokemon.com
+  skip-cert-verify: false
+  sni: visual.superpokemon.com
+  type: trojan
+- client-fingerprint: chrome
+  name: 5|🇯🇵 日本5|@ripaojiedian
+  password: Y0IweO6223CjwZD8FFZAaCz3yTYxDKX9yOAlXp5FTRONDaZl3zSeS7a3D4cYuCxFRx7yS
+  port: 28337
+  server: tenderly.meijireform.com
+  skip-cert-verify: false
+  sni: tenderly.meijireform.com
+  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.215.250.172
+  server: 3.34.253.95
   tfo: false
   type: ss
 - alterId: 0
