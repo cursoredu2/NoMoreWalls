@@ -1,24 +1,4 @@
 proxies:
-- cipher: chacha20-ietf
-  name: 0|🇭🇰1 |  2.6MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.183.61
-  type: ss
-- cipher: chacha20-ietf
-  name: 0|🇭🇰4 |  2.0MB/s
-  password: asd123456
-  port: 8388
-  server: 103.149.182.61
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|🇭🇰8 |  6.2MB/s
-  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
-  port: 19240
-  server: ss.miloli.cc
-  tfo: false
-  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 5|🇭🇰 香港|@ripaojiedian
@@ -54,17 +34,6 @@ proxies:
   server: 156.245.190.22
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 5|🇭🇰 香港5|@ripaojiedian
-  port: 10701
-  server: 120.198.71.184
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: CE361194-7D70-614C-780B-D3BDB61D0257
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

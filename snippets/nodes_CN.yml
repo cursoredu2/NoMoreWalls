@@ -1,1 +1,12 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0,5|🇭🇰 香港5|@ripaojiedian
+  port: 10701
+  server: 120.198.71.184
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: CE361194-7D70-614C-780B-D3BDB61D0257

@@ -1,25 +1,4 @@
 proxies:
-- cipher: aes-256-cfb
-  name: 0|🇹🇼3 |  1.0MB/s
-  password: qwerREWQ@@
-  port: 64759
-  server: 185.189.160.98
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 0|🇹🇼8 |  6.0MB/s
-  network: ws
-  port: 23619
-  server: 19.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 98c818f6-e573-3f3e-8b6a-d9e31a35c0c0
-  ws-opts:
-    headers:
-      Host: 19.mamamajd.site
-    path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 5|🇹🇼 台湾|@ripaojiedian
