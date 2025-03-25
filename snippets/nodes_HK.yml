@@ -1,37 +1,32 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|🇭🇰2 |  6.2MB/s
-  password: 96edc7d4-7490-48ff-99cc-496b0f4a27e9
-  port: 19240
-  server: ss.miloli.cc
-  tfo: false
+- cipher: chacha20-ietf
+  name: 0|🇭🇰5 |  2.2MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.183.61
   type: ss
-- name: 0|🇭🇰4 |  5.9MB/s
-  password: VMhGp5wEIyCDf90T
-  port: 42303
-  server: csuzhou01.1cooldns.com
-  sni: hk06.run.place
-  type: trojan
-- name: 0|🇭🇰13 |  6.3MB/s
-  password: 6c2fbace-4107-39af-8dfe-5712ac841c0f
-  port: 20278
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z278.hongkongnode.top
-  type: trojan
-  udp: true
-- name: 0|🇭🇰16 |  6.3MB/s
-  password: 6c2fbace-4107-39af-8dfe-5712ac841c0f
-  port: 20279
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z279.hongkongnode.top
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 0|🇭🇰19 |  1.1MB/s
+  name: 0|🇭🇰9 |  1.4MB/s
+  port: 51039
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰10 |  1.1MB/s
+  port: 59554
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰11 |  5.0MB/s
   port: 55754
   server: 183.236.51.38
   tls: false
