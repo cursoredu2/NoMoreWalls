@@ -1,31 +1,4 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇺🇸12 |  1.0MB/s
-  network: ws
-  port: 420
-  server: 674ddbc7-stw740-stx214-84ap.fmt2-us.sghuawei.com
-  tls: false
-  type: vmess
-  uuid: b2ae33f6-edd2-11ee-808f-f23c93141fad
-  ws-opts:
-    headers:
-      Host: 674ddbc7-stw740-stx214-84ap.fmt2-us.sghuawei.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸13 |  5.6MB/s
-  network: ws
-  port: 420
-  server: 35a503ea-stucg0-su99vp-4mce.fmt2-us.sghuawei.com
-  tls: false
-  type: vmess
-  uuid: 06c625ea-5902-11ee-9e87-f23c9313b177
-  ws-opts:
-    headers:
-      Host: 35a503ea-stucg0-su99vp-4mce.fmt2-us.sghuawei.com
-    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 5|🇺🇸 美国|@ripaojiedian
