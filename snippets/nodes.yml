@@ -1,7 +1,149 @@
 proxies:
+- alterId: '0'
+  cipher: auto
+  name: 0|🇹🇼1 |  1.0MB/s
+  network: tcp
+  port: '27228'
+  server: 45.121.50.116
+  type: vmess
+  uuid: 1d4d8fb8-c73c-4474-e301-dcb9570943ca
+- name: 0|🇭🇰1 |  5.7MB/s
+  password: b92ecfaf-6411-3702-a9c2-14f66f639728
+  port: 24603
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z259.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|🇸🇬1 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 47.129.51.201
+  type: ss
+- name: 0|🇯🇵2 |  1.9MB/s
+  password: b92ecfaf-6411-3702-a9c2-14f66f639728
+  port: 20140
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z140.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 0|🇮🇹1 |  4.6MB/s
+  h2-opts: {}
+  http-opts: {}
+  name: 0|🇺🇸9 |  1.7MB/s
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- cipher: aes-256-cfb
+  delay: 733
+  name: 0|🇰🇷1 |  1.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 43.202.67.225
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 0|🇸🇬3 |  5.8MB/s
+  password: amazonskr05
+  port: 443
+  server: 52.76.47.112
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 0|🇨🇦2 |  2.3MB/s
+  network: ws
+  port: 30825
+  server: v25.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬11 |  6.2MB/s
+  network: tcp
+  port: 3683
+  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
+  ws-headers:
+    Host: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+  ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: 0|🌀6-AM |  4.6MB/s
+  password: 5rfA92M6A2a9E1GiFHa9Ux
+  port: 4443
+  server: 45.129.185.97
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇸🇬5 |  6.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 54.169.64.13
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🇸🇬6 |  6.0MB/s
+  password: amazonskr05
+  port: 443
+  server: 3.0.50.161
+  type: ss
+- cipher: aes-256-cfb
+  name: 0|🌀14- |  1.2MB/s
+  password: amazonskr05
+  port: 443
+  server: 18.140.70.168
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸18 |  1.7MB/s
+  network: ws
+  port: 30807
+  server: v7.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 0|🇸🇬10 |  3.9MB/s
+  network: tcp
+  port: 3683
+  server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
+  ws-headers:
+    Host: 1387ebdd-su7b40-su6828-eme.b.fosant.com
+  ws-path: /
+- alterId: 2
+  cipher: auto
+  name: 0|🇮🇹1 |  5.4MB/s
   network: ws
   port: 30805
   raw:
@@ -31,67 +173,20 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 0|🇧🇷1 |  1.1MB/s
+  name: 0|🌀21-ID |  5.4MB/s
   network: ws
-  port: 80
-  server: 104.18.23.68
-  tls: false
-  type: vmess
-  uuid: bd9c1aea-240a-463a-83ee-e7b3a6a4ac7a
-  ws-opts:
-    headers:
-      Host: 375175914186712025032911325872796.s15.chibaba.filegear-sg.me
-    path: /s15.html?ed=2048
-- alterId: '0'
-  cipher: auto
-  name: 0|🇸🇬1 |  1.5MB/s
-  network: tcp
-  port: '3683'
-  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
-  type: vmess
-  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸18 |  2.5MB/s
-  network: ws
-  port: 30807
-  server: v7.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 0|🇺🇸22 |  2.8MB/s
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tfo: false
+  port: 443
+  server: quiz.int.vidio.com
+  servername: serv1.idks1.web.id
+  skip-cert-verify: true
   tls: true
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  udp: true
+  uuid: 9c7c7039-a5f1-47b2-9225-cbb5bf03b9e6
   ws-opts:
     headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- name: 0|🇺🇸27 |  2.9MB/s
-  network: ws
-  password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
-  port: 443
-  server: 172.67.159.56
-  sni: Fgh9JkR5.890617.xYz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Fgh9JkR5.890617.xYz
-    path: /lWljHWvIMOj85lz42MdhsCLV
+      Host: serv1.idks1.web.id
+    path: /vmess
 - cipher: aes-256-cfb
   name: 5|tg频道:@ripaojiedian
   password: amazonskr05

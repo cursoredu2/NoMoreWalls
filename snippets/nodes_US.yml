@@ -1,7 +1,24 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 0|🇺🇸18 |  2.5MB/s
+  h2-opts: {}
+  http-opts: {}
+  name: 0|🇺🇸9 |  1.7MB/s
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 0|🇺🇸18 |  1.7MB/s
   network: ws
   port: 30807
   server: v7.heduian.link
@@ -14,34 +31,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇺🇸22 |  2.8MB/s
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- name: 0|🇺🇸27 |  2.9MB/s
-  network: ws
-  password: d67cfeaf-b277-44ac-ab99-9dd02a7c5299
-  port: 443
-  server: 172.67.159.56
-  sni: Fgh9JkR5.890617.xYz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Fgh9JkR5.890617.xYz
-    path: /lWljHWvIMOj85lz42MdhsCLV
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 5|🇺🇸 美国|@ripaojiedian

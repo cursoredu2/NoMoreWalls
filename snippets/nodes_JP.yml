@@ -1,4 +1,13 @@
 proxies:
+- name: 0|🇯🇵2 |  1.9MB/s
+  password: b92ecfaf-6411-3702-a9c2-14f66f639728
+  port: 20140
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z140.hongkongnode.top
+  tfo: true
+  type: trojan
+  udp: true
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 5|🇯🇵 日本|@ripaojiedian
