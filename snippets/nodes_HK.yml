@@ -1,8 +1,22 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰1 |  6.1MB/s
+  port: 4136
+  server: 16f0bd93-sukw00-svzder-d3un.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: b2c8f5a8-fbf3-11ef-9707-f23c93136cb3
+- cipher: chacha20-ietf
+  name: 0|🇭🇰3 |  2.1MB/s
+  password: asd123456
+  port: 8388
+  server: 103.149.182.61
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 0|🇭🇰4 |  2.8MB/s
+  name: 0|🇭🇰9 |  3.4MB/s
   port: 36609
   server: 120.232.153.40
   tls: false
@@ -10,21 +24,40 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 0|🇭🇰10 |  5.9MB/s
+  name: 0|🇭🇰21 |  1.4MB/s
   port: 4136
-  server: 2b6c4643-suj1c0-sy8g75-aoeb.d.volczijie.com
+  server: f7edc612-suj1c0-svzder-d3un.d.volczijie.com
   tls: false
   type: vmess
-  uuid: d995e5ea-fdad-11ef-8ebc-f23c93141fad
-- client-fingerprint: chrome
-  name: 0,5|🇭🇰 香港6|@ripaojiedian
-  password: VMhGp5wEIyCDf90T
-  port: 42303
-  server: csuzhou01.1cooldns.com
-  skip-cert-verify: false
-  sni: hk06.run.place
-  type: trojan
+  uuid: b2c8f5a8-fbf3-11ef-9707-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰22 |  1.4MB/s
+  network: ws
+  port: 23003
+  raw:
+    add: 212.192.12.154
+    aid: '0'
+    alpn: ''
+    fp: ''
+    host: ''
+    id: 1ee13e0f-be09-4502-931d-011d383a08b5
+    net: ws
+    path: /
+    port: '23003'
+    ps: 🇭🇰 --001-1E
+    scy: ''
+    sni: ''
+    tls: ''
+    type: none
+    v: '2'
+  server: 212.192.12.154
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1ee13e0f-be09-4502-931d-011d383a08b5
+  ws-opts:
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 5|🇭🇰 香港|@ripaojiedian
@@ -78,6 +111,14 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 3.link-hub.click
   type: ssr
+- client-fingerprint: chrome
+  name: 5|🇭🇰 香港6|@ripaojiedian
+  password: VMhGp5wEIyCDf90T
+  port: 42303
+  server: csuzhou01.1cooldns.com
+  skip-cert-verify: false
+  sni: hk06.run.place
+  type: trojan
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
