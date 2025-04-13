@@ -1,25 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵2 |  5.1MB/s
-  port: 17233
-  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
-- alterId: '0'
-  cipher: auto
-  name: 0|🇯🇵5 |  6.2MB/s
-  network: tcp
-  port: '17233'
-  server: d7481a66-sunz40-taklwz-12bd.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
-  ws-headers:
-    Host: d7481a66-sunz40-taklwz-12bd.cm5.p5pv.com
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 0,5|🇯🇵 日本2|@ripaojiedian
@@ -28,56 +7,6 @@ proxies:
   server: gdlt.aicheetah.lol
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵7 |  6.4MB/s
-  port: 17233
-  server: fe15251f-sunz40-tbpkla-1otc2.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 0114339c-488d-11ee-8792-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵10 |  4.6MB/s
-  port: 17233
-  server: aa715e82-sunz40-t1tfcf-1o3sh.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 96b3f2ee-5f66-11ee-804b-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵11 |  3.4MB/s
-  network: tcp
-  port: 17233
-  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
-  ws-headers:
-    Host: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵13 |  4.0MB/s
-  port: 17233
-  server: 9cb8b51d-sunz40-svabg7-1td06.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 0|🇯🇵16 |  4.7MB/s
-  network: tcp
-  port: 17233
-  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-  ws-headers:
-    Host: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
-  ws-path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 5|🇯🇵 日本|@ripaojiedian
