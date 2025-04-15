@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: ''
   flow: none
   mode: ''
-  name: 0|🇸🇬1 |  5.7MB/s
+  name: 0|🇸🇬1 |  5.8MB/s
   network: ws
   port: 80
   server: support.zoom.us
@@ -15,21 +15,22 @@ proxies:
     headers:
       Host: free.server.techsonicpremium.shop
     path: '%2Ffree.server.techsonicpremium.shop'
-- client-fingerprint: ''
-  flow: ''
+- client-fingerprint: chrome
+  flow: none
   mode: ''
-  name: 0|🇸🇬2 |  2.2MB/s
+  name: 0,8|US_speednode_0058
   network: ws
-  port: 8080
+  port: 80
   server: 170.114.45.6
-  servername: ''
+  servername: free.pranithsandaruwan.shop
+  skip-cert-verify: true
   tls: false
   type: vless
-  udp: false
-  uuid: db33e70b-3769-474a-8d44-193159b64756
+  udp: true
+  uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
   ws-opts:
     headers:
-      Host: free.pranithsandaruwan.cfd
+      Host: free.pranithsandaruwan.shop
     path: /
 - alterId: 0
   cipher: auto
