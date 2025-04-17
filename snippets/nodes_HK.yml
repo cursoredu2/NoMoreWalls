@@ -1,14 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0|🇭🇰4 |  1.6MB/s
-  port: 15229
-  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
-  tls: false
-  type: vmess
-  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
-- alterId: 0
-  cipher: auto
   name: 0,6|香港6|@ripaojiedian
   network: tcp
   port: '15229'
@@ -21,6 +13,22 @@ proxies:
   ws-headers:
     Host: 614ea2b0-sux8g0-td95qh-1isea.cm.plebai.net
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰8 |  1.3MB/s
+  port: 15229
+  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰13 |  1.3MB/s
+  port: 15229
+  server: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 5|🇭🇰 香港|@ripaojiedian
