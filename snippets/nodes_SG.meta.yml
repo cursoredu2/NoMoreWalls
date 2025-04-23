@@ -1,5 +1,5 @@
 proxies:
-- name: 0|🇸🇬1 |  1.4MB/s
+- name: 0|🇸🇬1 |  1.5MB/s
   password: '!!str 3828095943467868160'
   port: 443
   server: 103.106.229.111
@@ -8,33 +8,20 @@ proxies:
   tfo: false
   type: trojan
   udp: true
-- name: 0|🇸🇬2 |  1.4MB/s
-  password: '!!str 3828095943467868160'
-  port: 443
-  server: poetic-coral.dolphin109.quest
-  skip-cert-verify: true
-  sni: poetic-coral.dolphin109.quest
-  type: trojan
-- name: 0|🇸🇬3 |  1.8MB/s
-  password: '!!str 3828095943467868160'
-  port: 443
-  server: 103.106.229.240
-  skip-cert-verify: true
-  sni: stable-labrador.dolphin109.quest
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: 0|🇸🇬4 |  1.2MB/s
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 0|🇸🇬2 |  6.2MB/s
   network: tcp
-  port: 17231
-  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
-  ws-headers:
-    Host: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
-  ws-path: /
+  port: 56702
+  reality-opts:
+    public-key: sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8
+    short-id: 792147b8
+  server: jp1.interld123456789.com
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: c46c351c-d15c-4ac9-9fbc-05b9b84214cc
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 0,8|CN_speednode_0019
@@ -49,18 +36,12 @@ proxies:
   type: vless
   udp: true
   uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0|🇸🇬6 |  5.8MB/s
-  network: tcp
-  port: 10778
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  server: test123.zlqhdns.top
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+- cipher: aes-256-gcm
+  name: 0|🇸🇬4 |  4.9MB/s
+  password: 9acfc574-acc3-4c2b-ab3b-491d43a6eb83
+  port: 21114
+  server: okanc.node-is.green
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 5|🇸🇬 狮城特殊|@ripaojiedian

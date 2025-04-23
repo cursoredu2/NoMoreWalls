@@ -1,35 +1,10 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰4 |  3.0MB/s
-  network: tcp
-  port: 15229
-  server: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-  ws-headers:
-    Host: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 0|🇭🇰8 |  1.3MB/s
-  network: tcp
-  port: 15229
-  server: 6aceadab-sv0xs0-sv1gez-1tk5u.cm.plebai.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: e3217bc2-061f-11f0-90e2-f23c913c8d2b
-  ws-headers:
-    Host: 6aceadab-sv0xs0-sv1gez-1tk5u.cm.plebai.net
-  ws-path: /
-- name: 0,8|CN_speednode_0038
+- client-fingerprint: chrome
+  name: 0,5,8|CN_speednode_0046
   password: 2c605663-b89a-5734-a9d6-97d4743d72cf
   port: 8313
-  server: 121.14.61.174
-  skip-cert-verify: true
+  server: dozo01.flztjc.top
+  skip-cert-verify: false
   sni: hk-13-568.flztjc.net
   type: trojan
   udp: true
@@ -70,15 +45,6 @@ proxies:
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 5,8|CN_speednode_0046
-  password: 2c605663-b89a-5734-a9d6-97d4743d72cf
-  port: 8313
-  server: dozo01.flztjc.top
-  skip-cert-verify: false
-  sni: hk-13-568.flztjc.net
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
