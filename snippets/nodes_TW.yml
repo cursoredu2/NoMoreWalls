@@ -1,9 +1,9 @@
 proxies:
-- name: 0|🇹🇼1 |  1.6MB/s
+- name: 0|🇹🇼1 |  4.2MB/s
   network: ws
   password: Aimer
-  port: 8443
-  server: 31.129.22.41
+  port: 443
+  server: 103.116.7.235
   skip-cert-verify: true
   sni: epcca.ambercc.filegear-sg.me
   type: trojan
@@ -12,11 +12,24 @@ proxies:
     headers:
       host: epcca.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 0|🇹🇼6 |  1.2MB/s
+- name: 0|🇹🇼2 |  5.4MB/s
+  network: ws
+  password: Aimer
+  port: 3306
+  server: 107.172.180.73
+  skip-cert-verify: true
+  sni: epcca.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epcca.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 0|🇹🇼4 |  1.3MB/s
   network: ws
   password: Aimer
   port: 2087
-  server: 27.50.49.209
+  server: 27.50.49.74
   skip-cert-verify: true
   sni: epcca.ambercc.filegear-sg.me
   type: trojan
@@ -25,18 +38,6 @@ proxies:
     headers:
       host: epcca.ambercc.filegear-sg.me
     path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: 0
-  cipher: auto
-  delay: 677
-  h2-opts: {}
-  http-opts: {}
-  name: 0|🇹🇼7 |  2.0MB/s
-  network: tcp
-  port: 3687
-  server: 1cea2198-sukw00-sv3y7m-1glq.a.fosant.com
-  skip-cert-verify: true
-  type: vmess
-  uuid: df7bed3c-06eb-11f0-8ebc-f23c93141fad
 - client-fingerprint: chrome
   name: 5|🇹🇼 台湾|@ripaojiedian
   password: 6a21647d-824a-41d3-82f9-12f52ea0ddbd
