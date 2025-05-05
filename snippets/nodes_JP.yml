@@ -151,9 +151,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5|🇯🇵 日本3|@ripaojiedian
+  name: 5,6|日本3|@ripaojiedian
   network: ws
-  port: 35215
+  port: '35215'
   server: jp5.g2.moonbase.life
   servername: web.xcjs.info
   skip-cert-verify: false
@@ -168,7 +168,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 5,6|日本6|@ripaojiedian
+  name: 5,6|日本4|@ripaojiedian
   network: ws
   port: '35216'
   server: jp6.g2.moonbase.life
@@ -192,20 +192,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 6|日本3|@ripaojiedian
-  network: ws
-  port: '35246'
-  server: jp6.vip2.g2.moonbase.life
-  servername: web.xcjs.info
-  tls: true
-  type: vmess
-  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
-  ws-opts:
-    headers:
-      Host: web.xcjs.info
-    path: /home
-- alterId: 0
-  cipher: auto
   name: 6|日本5|@ripaojiedian
   network: kcp
   port: '53893'
@@ -214,17 +200,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
-- alterId: 0
-  cipher: auto
-  name: 6|日本7|@ripaojiedian
-  network: ws
-  port: '443'
-  server: cg1c10.waimaoglobaldirect.cc
-  servername: cg1c10.waimaoglobaldirect.cc
-  tls: true
-  type: vmess
-  uuid: 3493e94c-1769-43d8-8308-f87b460adc65
-  ws-opts:
-    headers:
-      Host: cg1c10.waimaoglobaldirect.cc
-    path: /api/v1/graphql
