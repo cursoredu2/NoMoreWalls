@@ -1,4 +1,22 @@
 proxies:
+- client-fingerprint: chrome
+  flow: none
+  name: 0|🇸🇬1 |  5.3MB/s|Youtube|Openai|...
+  network: ws
+  port: '2096'
+  server: 141.193.213.21
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 93be59b7-ebce-4aec-8e66-4470e06e58ae
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: '%2F'
+  xudp: true
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
