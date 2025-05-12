@@ -1,11 +1,14 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 0|🇹🇼1 |  2.6MB/s|0%|Disney|Youtu...
-  password: 423cf642-6528-410c-b542-2aae04113d33
-  port: '11541'
-  server: cdn-p1-tw.youku-dns.com
-  type: ss
+- client-fingerprint: chrome
+  name: 0|🇹🇼1 |  1.7MB/s|11%|Openai|Gemi...
+  password: cacb4d4fa26f4eed25e4d17a6370083c
+  port: 443
+  server: tw01.sqx001.com
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
+  username: dmpyoary@mayorlogistic.com
 - client-fingerprint: chrome
   name: 5|🇹🇼 台湾|@ripaojiedian
   password: 6e1b9a65-884f-3aa9-9469-bf6ec0f08610
@@ -32,3 +35,16 @@ proxies:
   skip-cert-verify: false
   sni: skwygx.top
   type: trojan
+- name: 8|TW_speednode_0038
+  network: ws
+  password: bpb-trojan
+  port: 443
+  server: 35.201.203.106
+  skip-cert-verify: true
+  sni: skwygx.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: skwygx.top
+    path: /tr?ed=2560
