@@ -1,12 +1,25 @@
 proxies:
 - delay: 478
-  name: 0|🇯🇵2 |  5.6MB/s|0%|Netflix|Disn...
+  name: 0|🇯🇵1 |  3.4MB/s|0%|Netflix|Yout...
   password: feac8d6d-8fcf-4ef1-9ad0-18833c9fca11
   port: 28507
   server: green.cdntencentmusic.com
   skip-cert-verify: true
   sni: green.cdntencentmusic.com
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 0|🇯🇵2 |  1.2MB/s|11%|Disney|Yout...
+  network: tcp
+  port: 17233
+  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
+  ws-headers:
+    Host: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
+  ws-path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 5|🇯🇵 日本|@ripaojiedian
