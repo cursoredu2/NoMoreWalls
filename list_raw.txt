@@ -44,5 +44,5 @@ trojan://Aimer@108.165.152.58:2087?allowInsecure=0&sni=epmw.ambercc.filegear-sg.
 trojan://Aimer@192.3.127.231:443?allowInsecure=0&sni=epmw.ambercc.filegear-sg.me&type=ws&host=epmw.ambercc.filegear-sg.me&path=/?ed=2560#8%7CUS_speednode_0112
 trojan://Aimer@192.210.207.89:20080?allowInsecure=0&sni=epme.ambercc.filegear-sg.me&type=ws&host=epme.ambercc.filegear-sg.me&path=/?ed=2560#8%7CUS_speednode_0113
 trojan://tg-fq521free@216.24.57.30:443?allowInsecure=0&sni=torjan.xn--xhq44j.eu.org&type=ws&host=torjan.xn--xhq44j.eu.org&path=/#8%7CUS_speednode_0121
-https://AzzJ77.mcsslk.xyz/82b199b781c4ad75e679c954089b8bcc
 https://3l6nDn.absslk.xyz/c81d8885dd62ef5fccb3096ce64e8508
+https://AzzJ77.mcsslk.xyz/82b199b781c4ad75e679c954089b8bcc
