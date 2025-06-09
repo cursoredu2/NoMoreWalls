@@ -45,5 +45,5 @@ trojan://2b1ed981-6547-4094-998b-06a3323d6f6c@120.233.44.201:21031?allowInsecure
 trojan://telegram-id-directvpn@63.178.80.159:22223?allowInsecure=0&sni=trojan.burgerip.co.uk#8%7CDE_speednode_0017
 trojan://telegram-id-privatevpns@63.178.80.159:22222?allowInsecure=0&sni=trojan.burgerip.co.uk#8%7CDE_speednode_0019
 trojan://Ng35283528@gozargah5.cloudflare3-80.hosting-ip.com:443?allowInsecure=1&sni=c2.validbv3528.eu.org&type=ws&host=c2.validbv3528.eu.org&path=/?ed=2560#8%7CUS_speednode_0097
-https://DYKsIe.mcsslk.xyz/6ec43faf1f674d51049fa32ae10a6333
-https://9ncmU9.absslk.xyz/d0d00921b1afe0a4b37f3e39d28d52f6
+https://4EWtv3.mcsslk.xyz/bcc8e503658126c63545a03e54b634be
+https://df8Zuv.absslk.xyz/96c24f8f88a9cca00088dbfd2a274b4f
