@@ -46,7 +46,7 @@ proxies:
   plugin-opts:
     host: kr6v1.dashengjs.net
     mode: websocket
-    mux: false
+    mux: true
     path: /bylnxldqaquw
     skip-cert-verify: false
     tls: true
@@ -76,6 +76,16 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 6|日本3|@ripaojiedian
+  network: tcp
+  port: '20452'
+  server: 140.227.28.92
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
+- alterId: 0
+  cipher: auto
+  name: 6|日本4|@ripaojiedian
   network: tcp
   port: '41302'
   server: 183.236.51.38
