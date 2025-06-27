@@ -37,6 +37,14 @@ proxies:
     headers:
       Host: reedfree8mahsang2.redorg.ir
     path: /?ed=2560
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 5|🇸🇬 新加坡|@ripaojiedian
+  password: zcaarradsfasgfdcxx
+  port: 3551
+  server: nstku8v.ns.p36958.xyz
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
   name: 8|SG_speednode_0082
   network: ws
