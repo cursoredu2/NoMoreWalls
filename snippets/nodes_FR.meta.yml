@@ -72,10 +72,10 @@ proxies:
       Host: wwwspeedtestnetwhiteberinsistomd6625996s08.gorgeserver1.ir
     path: /
 - client-fingerprint: chrome
-  name: 8|FR_speednode_0051
+  name: 8|FR_speednode_0042
   network: ws
   port: 8880
-  server: 185.16.110.177
+  server: 141.11.203.177
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
@@ -87,10 +87,10 @@ proxies:
       Host: ip.langmanshanxi.top
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: 8|FR_speednode_0052
+  name: 8|FR_speednode_0043
   network: ws
   port: 8880
-  server: 141.11.203.177
+  server: 185.16.110.177
   servername: Telegram-channel-WangCai2
   skip-cert-verify: false
   tls: false
