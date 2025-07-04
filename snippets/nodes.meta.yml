@@ -1621,11 +1621,10 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 5,6|香港|@ripaojiedian
+  name: 5|🇭🇰 香港|@ripaojiedian
   network: ws
-  port: '30809'
+  port: 30809
   server: v9.heduian.link
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -1676,11 +1675,10 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 5,6|香港6|@ripaojiedian
+  name: 5|🇭🇰 香港6|@ripaojiedian
   network: ws
-  port: '80'
+  port: 80
   server: hkt.gotochinatown.net
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
