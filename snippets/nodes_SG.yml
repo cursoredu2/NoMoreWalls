@@ -33,76 +33,11 @@ proxies:
   skip-cert-verify: false
   sni: sg.mjt000.com
   type: trojan
-- name: 8|SG_speednode_0049
-  network: ws
-  password: Aimer
-  port: 443
-  server: 27.50.49.136
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 8|SG_speednode_0050
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 27.50.49.47
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 8|SG_speednode_0051
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 27.50.48.115
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 8|SG_speednode_0052
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 27.50.49.251
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 8|SG_speednode_0053
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 27.50.49.209
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 8|SG_speednode_0054
+- name: 8|SG_speednode_0092
   network: ws
   password: Aimer
   port: 8443
-  server: 27.50.49.177
+  server: 92.243.74.239
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
@@ -111,7 +46,7 @@ proxies:
     headers:
       Host: epga.aimercc.dpdns.org
     path: /?ed=2560
-- name: 8|SG_speednode_0055
+- name: 8|SG_speednode_0093
   network: ws
   password: Aimer
   port: 8443
@@ -123,25 +58,12 @@ proxies:
   ws-opts:
     headers:
       Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 8|SG_speednode_0056
+    path: /
+- name: 8|SG_speednode_0094
   network: ws
   password: Aimer
   port: 8443
-  server: 27.50.49.242
-  skip-cert-verify: true
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: 8|SG_speednode_0057
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.239
+  server: 92.243.74.180
   skip-cert-verify: true
   sni: epga.aimercc.dpdns.org
   type: trojan
