@@ -1616,7 +1616,7 @@ proxies:
   name: 5|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.189.166.94
+  server: 3.110.161.102
   tfo: false
   type: ss
 - alterId: 2
@@ -1652,7 +1652,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 5,6|香港5|@ripaojiedian
+  name: 5,6|香港3|@ripaojiedian
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -1661,7 +1661,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 64617ed2-4823-11ef-9f2d-f23c9164ca5d
+  uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
@@ -1673,6 +1673,22 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- alterId: 2
+  cipher: auto
+  name: 5,6|香港5|@ripaojiedian
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6e313598-a088-11ea-a22e-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
 - name: 5|🇭🇰 香港6|@ripaojiedian
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 444
@@ -1692,19 +1708,19 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 5|🇹🇼 台湾2|@ripaojiedian
-  port: 3690
-  server: 64657217-t0fds0-t0yugh-dnss.82.iwskwai.com
+  port: 3687
+  server: 615c0f38-t0h8g0-tgxeiy-3kis.77.iwskwai.com
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 16955d72-1794-11f0-a035-f23c95b6f51d
+  uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3
 - cipher: rc4-md5
   name: 5|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-ZRPR5o9z3b.download.microsoft.com
+    host: 202507282137611-Ykh074r9Rq.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -1767,32 +1783,6 @@ proxies:
   skip-cert-verify: false
   sni: sg.mjt000.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 5,6|新加坡4|@ripaojiedian
-  network: ws
-  port: '30839'
-  server: v39.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 5|🇸🇬 新加坡5|@ripaojiedian
-  port: 3683
-  server: 51e48c04-t0fds0-t3fjp7-cdfn.82.iwskwai.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
 - name: 5|🇺🇸 美国|@ripaojiedian
   network: ws
   password: 7248e825-887c-48b9-83bc-c26bc6392bf8
@@ -1810,7 +1800,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-ZRPR5o9z3b.download.microsoft.com
+    host: 202507282137611-Ykh074r9Rq.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -1844,12 +1834,12 @@ proxies:
   cipher: auto
   name: 6|台湾2|@ripaojiedian
   network: tcp
-  port: '3690'
-  server: 64657217-t0fds0-t0yugh-dnss.82.iwskwai.com
+  port: '3687'
+  server: 615c0f38-t0h8g0-tgxeiy-3kis.77.iwskwai.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 16955d72-1794-11f0-a035-f23c95b6f51d
+  uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3
 - alterId: 0
   cipher: auto
   name: 6|日本v2|@ripaojiedian
@@ -1860,16 +1850,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- alterId: 0
-  cipher: auto
-  name: 6|新加坡5|@ripaojiedian
-  network: tcp
-  port: '3683'
-  server: 51e48c04-t0fds0-t3fjp7-cdfn.82.iwskwai.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94931862-1484-11f0-9ab7-f23c95b6f51d
 - name: 8|AM_speednode_0001
   network: ws
   password: Aimer
