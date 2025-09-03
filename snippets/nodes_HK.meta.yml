@@ -78,6 +78,16 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 6|香港3|@ripaojiedian
+  network: tcp
+  port: '47405'
+  server: 38.147.188.96
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84513b8e-2aad-4151-956e-09593c5f107c
+- alterId: 0
+  cipher: auto
   name: 6|香港v2|@ripaojiedian
   network: kcp
   port: '28590'
