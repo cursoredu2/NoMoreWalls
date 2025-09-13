@@ -39,11 +39,10 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: 5,6|香港3|@ripaojiedian
+  name: 5|🇭🇰 香港3|@ripaojiedian
   network: ws
-  port: '80'
+  port: 80
   server: hkt.gotochinatown.net
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -192,6 +191,16 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
+  name: 6|香港3|@ripaojiedian
+  network: tcp
+  port: '40177'
+  server: 45.89.233.162
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eb6f0b67-a6b5-461f-81f7-f2e50e4104bc
+- alterId: 0
+  cipher: auto
   name: 6|香港v2|@ripaojiedian
   network: kcp
   port: '28590'
@@ -210,6 +219,34 @@ proxies:
   tls: false
   type: vmess
   uuid: 8a9150bc-b9c8-40ac-be83-aaec45176a81
+- alterId: 2
+  cipher: auto
+  name: 6|美国|@ripaojiedian
+  network: ws
+  port: '30829'
+  server: v29.heduian.link
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 6|马来西亚|@ripaojiedian
+  network: ws
+  port: '16622'
+  server: t.cnmjcn.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 743dbce9-ec7d-49dd-b9d6-3b1a151e729f
+  ws-opts:
+    headers:
+      Host: f604066249a784d694db65d3ebf5d60c.mobgslb.tbcache.com
+    path: /
 - name: 8|AT_speednode_0001
   network: ws
   password: slch2024
