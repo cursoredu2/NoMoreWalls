@@ -55,9 +55,9 @@ proxies:
   cipher: auto
   name: 6|日本v2|@ripaojiedian
   network: kcp
-  port: '34933'
-  server: 8.209.211.236
+  port: '40354'
+  server: 47.74.42.174
   servername: ''
   tls: false
   type: vmess
-  uuid: 8a9150bc-b9c8-40ac-be83-aaec45176a81
+  uuid: 79f0cb97-d631-493e-84a1-82a0576fa952
