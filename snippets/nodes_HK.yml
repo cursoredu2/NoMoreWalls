@@ -59,13 +59,3 @@ proxies:
   skip-cert-verify: true
   sni: fe2.update.microsoft.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 6|香港3|@ripaojiedian
-  network: tcp
-  port: '41522'
-  server: 43.247.135.17
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ea897b9a-0894-4f17-ab5b-7e059678734d
