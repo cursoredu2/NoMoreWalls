@@ -3,7 +3,7 @@ proxies:
   password: BxceQaOe
   port: 41017
   server: 54.248.4.79
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 5|🇯🇵 日本2|@ripaojiedian

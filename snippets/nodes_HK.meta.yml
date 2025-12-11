@@ -12,7 +12,7 @@ proxies:
   password: 887a23bb-c1d0-4ead-b164-e107e68dd083
   port: 49213
   server: 120.232.81.194
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 5|🇭🇰 香港3|@ripaojiedian
@@ -26,14 +26,14 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.53.174
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 5|🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
   server: 219.78.209.224
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
