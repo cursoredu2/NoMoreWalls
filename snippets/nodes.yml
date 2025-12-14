@@ -39,14 +39,14 @@ proxies:
   password: BxceQaOe
   port: 443
   server: 58.152.18.155
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 5|🇭🇰 香港5|@ripaojiedian
   password: BxceQaOe
   port: 443
   server: 219.78.209.224
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 5|🇭🇰 香港6|@ripaojiedian
@@ -60,7 +60,7 @@ proxies:
   password: BxceQaOe
   port: 48756
   server: 3.112.242.221
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 5|🇯🇵 日本2|@ripaojiedian
@@ -104,7 +104,7 @@ proxies:
   password: BxceQaOe
   port: 804
   server: 16.162.21.116
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 5|🇺🇸 美国|@ripaojiedian
@@ -125,7 +125,7 @@ proxies:
   password: BxceQaOe
   port: 2173
   server: 54.238.178.152
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
